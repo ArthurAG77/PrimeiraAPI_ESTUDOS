@@ -1,4 +1,4 @@
-### Oque eu aprendi com isso?
+# Oque eu aprendi com isso?
 
 app é uma instancia do flask que é a base da nossa api<br>
 Route é a rota que ele deve seguir para buscar essas informações (url) nesse caso usamos "/livros..." hosteado localmente<br>
@@ -7,10 +7,10 @@ json é o padrão, então para recebermos dados recebemos com get_json e para de
 pode executar qualquer tarefa que uma função executa, inclusive ter conexão com dbs<br>
 deve retornar algo
 
-## setando endpoint >> -- <<
+## setando endpoint 
 @app.route("/URL", methods=["METHOD"]) METHOD pode ser -> GET, POST, PUT, PATCH, DELETE, HEAD, OPTIONS
 
-### significado dos metodos :
+## significado dos metodos :
 GET -> Obtém dados do servidor (api)
 POST -> Cria um novo recurso -> No exemplo um novo livro
 PUT -> Atualiza um recurso inteiro "Sobrescreve" 
